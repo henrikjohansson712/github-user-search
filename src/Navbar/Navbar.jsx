@@ -4,11 +4,11 @@ import "./Navbar.css";
 class Navbar extends Component {
   render() { 
     return (
-      <nav class="navbar fixed-top navbar-dark bg-dark">
-    <span class="navbar-brand">
-      <i class="fab fa-github"></i>
+      <nav className="navbar fixed-top navbar-dark bg-dark">
+    <a className="navbar-brand" href="#">
+      <i className="fab fa-github fa-2x align-middle"></i>
       {this.props.pageTitle}
-    </span>
+    </a>
   </nav>
     );
   }
