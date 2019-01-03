@@ -63,7 +63,7 @@ class Start extends Component {
           <div className="col-lg"></div>
           <div className="col-md">
             <form className="form-inline" onSubmit={this.getData}>
-              <div className="input-group mb-3">
+              <div className="input-group">
                 <input className="form-control" type="search" placeholder="Enter username" aria-label="Search" ref="name" />
                 <div className="input-group-append">
                   <button className="btn btn-outline-primary" type="submit"><i className="fas fa-search" id="btn-search"></i></button>

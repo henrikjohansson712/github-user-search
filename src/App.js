@@ -9,7 +9,7 @@ class App extends Component {
       pageTitle: "Github User Search"
     }
     return (
-        <div className="App align-middle">
+        <div className="App">
           <Navbar pageTitle={config.pageTitle} />
           <Start />
         </div>

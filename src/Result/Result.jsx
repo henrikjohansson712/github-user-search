@@ -20,6 +20,7 @@ class Result extends Component {
           <div className="col-lg avatar">
             {this.props.userData.avatar}
           </div>
+          <div className="col-lg-2"></div>
           <div className="col-lg repos">
             {this.props.userData.reposNum}
             <ul>
