@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
-import Navbar from './Navbar/Navbar';
 import Start from './Start/Start';
+import Navbar from './Navbar/Navbar';
+import './App.css';
 
 class App extends Component {
   render() {
@@ -9,10 +9,10 @@ class App extends Component {
       pageTitle: "Github User Search"
     }
     return (
-      <div className="App align-middle">
-        <Navbar pageTitle={config.pageTitle} />
-        <Start />
-      </div>
+        <div className="App align-middle">
+          <Navbar pageTitle={config.pageTitle} />
+          <Start />
+        </div>
     );
   }
 }
