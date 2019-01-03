@@ -5,7 +5,7 @@ class Navbar extends Component {
   render() { 
     return (
       <nav className="navbar navbar-dark bg-dark">
-        <span className="navbar-brand" href="#">
+        <span className="navbar-brand">
           <i className="fab fa-github fa-2x align-middle"></i>
           {this.props.pageTitle}
         </span>
